@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "singularName": "employee",
+    "pluralName": "employees",
+    "displayName": "Employee"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "man_number": {
+      "type": "uid"
+    },
+    "birthDate": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    }
+  }
+}
