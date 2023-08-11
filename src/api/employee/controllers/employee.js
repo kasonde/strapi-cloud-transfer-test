@@ -12,6 +12,7 @@ module.exports = createCoreController(
   "api::employee.employee",
   ({ strapi }) => ({
     async generateRandom(ctx) {
+      // !!!!! THIS IS HORRIBLY INEFFICIENT! DO NOT DO THIS IN PROD
       for (let count = 0; count < 1000; count++) {
         const employee = {
           name: faker.person.fullName(),
@@ -24,7 +25,7 @@ module.exports = createCoreController(
           data: employee,
         });
       }
-
+      // !!!!! THIS IS HORRIBLY INEFFICIENT! DO NOT DO THIS IN PROD
       ctx.status = 200;
       ctx.send = "done";
     },
