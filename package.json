@@ -15,7 +15,8 @@
     "@strapi/plugin-i18n": "0.0.0-experimental.996ba09add3e0d8e7794dde5ddc0306f8a9e42cd",
     "@strapi/plugin-users-permissions": "0.0.0-experimental.996ba09add3e0d8e7794dde5ddc0306f8a9e42cd",
     "@strapi/strapi": "0.0.0-experimental.996ba09add3e0d8e7794dde5ddc0306f8a9e42cd",
-    "better-sqlite3": "8.5.0"
+    "better-sqlite3": "8.5.0",
+    "uuid": "^9.0.0"
   },
   "author": {
     "name": "A Strapi developer"
